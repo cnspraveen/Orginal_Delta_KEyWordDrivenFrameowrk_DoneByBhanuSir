@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.company.Mainpackag.Delta">
+        <methods>
+          <include name="ScenarioName3" invocation-numbers="1"/>
+          <include name="initFrameWork"/>
+          <include name="quitApp"/>
+          <include name="endFramework"/>
+          <include name="AppLaunch"/>
+        </methods>
+      </class> <!-- com.company.Mainpackag.Delta -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
